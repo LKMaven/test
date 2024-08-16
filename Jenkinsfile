@@ -4,7 +4,8 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                echo 'aven word hello'
+                echo 'BRANCH2'
+                sh "add_branch2_test"
             }
         }
     }
